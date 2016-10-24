@@ -1,0 +1,346 @@
+.container {
+    margin: 0 auto;
+    height: 1386px;
+    width: 980px;
+    background-color: #fff;
+    font-family: "Microsoft YaHei";
+}
+.content{
+    width: 892px;
+}
+.ti{
+    text-indent: 2em;
+}
+header {
+    position: relative;
+    font: 12px SimHei;
+    border-bottom: 2px solid #938e8c;
+    height: 61px;
+    box-sizing: content-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+header .fr {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    color: #d45d5c;
+}
+header .fl {
+    position: relative;
+    height: 100%;
+    background-color: rgb(213,93,92);
+    color: #fff;
+    width: 110px;
+}
+header .fl span{
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+.sec1, .sec2{
+    margin:35px 0;
+}
+aside {
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid #cc8091;
+}
+aside h2, aside h3 {
+    line-height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+aside>h2:first-letter, aside>h3:first-letter{
+    font-size: 24px;
+}
+aside>h3:after, aside>h2:after{
+    content: '';
+    display: block;
+    width: 63px;
+    margin-top: -12px;
+    border-bottom: 2px solid #000;
+}
+aside>h3:after{
+    width: 118px;
+    border-bottom-width: 1px;
+}
+.at{
+    color: #676767;
+    margin-top: 10px;
+    font:12px "楷体";
+}
+aside>i{
+    color: #75b86b;
+    font-size: 116px;
+    font-style: italic;
+    display: block;
+    margin-top: -15px;
+}
+.a_3 {
+    margin-top: 40px;
+    position: relative;
+    color: #cc8091;
+}
+.a_3 i{
+    position: absolute;
+    bottom: -14px;
+    left: 5px;
+    font-size: 55px;
+}
+.a_c{
+    display: block;
+    font-size: 21px;
+    margin-bottom: -10px;
+}_
+.a_s{
+    font-size: 12px;
+    margin-top: 1px;
+}
+.a_3 div{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+.banner {
+    position: relative;
+    width: 641px;
+    height: 301px;
+    margin-right: 35px;
+    background-image: url(../images/left-top.jpg);
+}
+.banner span{
+    height: 100%;
+    width:191px;
+    opacity: 0.5;
+}
+.banner .fl{
+    position: absolute;
+    background-color: #75b86b;
+    bottom: 0;
+    left: 0;
+}
+.banner .fr{
+    position: absolute;
+    background-color: #cc8091;
+    bottom: 0;
+    right: 0;
+}
+.wrap{
+    width: 641px;
+    height: 135px;
+    margin-top: 30px;
+}
+.w3{
+    font-size: 12px;
+    color: #231815;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    height: 100%;
+}
+.w3 h4{
+    font-size: 16px;
+    text-decoration: underline;
+}
+.wa{
+    color: #418c59;
+}
+.we{
+    color: #d2994f;
+}
+.hw{
+    color: #cc7086;
+}
+.mid{
+    margin:;
+    width: 100%;
+    height: 135px;
+}
+.left{
+    margin-left: -100%;
+    width: 200px;
+    height: 135px;
+}
+.right{
+    width: 180px;
+    margin-left: -180px;
+    height: 135px;
+}
+.wrap_m{
+    margin:0 200px 0 220px;
+}
+.w3 ul{
+    margin-top: 16px;
+    list-style: none;
+}
+.right i{
+    font-size: 12px;
+    color: #cd4a48;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-style: italic;
+}
+.art_l{
+    width: 415px;
+    margin-bottom: 30px;
+}
+.the {
+    font:bold italic 72px SimHei;
+    color: #f5e327;
+}
+.title p{
+    color: #11456B;
+    font: bold 42px SimHei;
+    margin: 16px 0;
+}
+.text p {
+    line-height: 16px;
+    margin-top: 5px;
+}
+.title span{
+    font: bold 33px SimHei ;
+    color: #11456b;
+}
+.title{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #11456b;
+}
+.text p span{
+    margin-top: 10px;
+    font-family: SimHei;
+    padding:20px 10px 30px 0;
+    float: left;
+    font-size: 70px;
+    color: #f5e327;
+}
+.text {
+    font:12px SimSun;
+    color: #767777;
+    margin-top:16px;
+}
+.text .fr{
+    padding:15px 0 15px 15px;
+    width:226px;
+    height:300px;
+}
+.art_r{
+    margin-top: 31px;
+}
+.art_r_up{
+    background-image: url(../images/pic2.jpg);
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+.art_r_up div{
+    width: 456px;
+    height: 61px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.art_r_up span{
+    position: absolute;
+    color: #72b16a;
+    font-size:12px;
+    font-style: italic;
+    letter-spacing: 140%;
+}
+.art_r_up i {
+    margin-left: 38px;
+    line-height: 61px;
+    margin-right: 20px;
+    padding-left: 12px;
+    vertical-align: center;
+    height: 44px;
+    font-size: 26px;
+    color: #fff;
+    border-left: 3px solid #72b16a;
+}
+.art_r_down {
+    width: 459px;
+    height: 333px;
+    margin-top: 40px;
+    background-color: rgb(238,238,214);
+}
+.art_r_down ul{
+    padding-top: 20px;
+    list-style: none;
+    padding-left: 35px;
+}
+.art_r_down ul li {
+    font-size: 16px;
+    text-align: left;
+    margin:20px 0;
+}
+.art_r_down ul li i{
+    width: 0;
+    height: 0;
+    border-left:5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #10456b;
+    display: inline-block;
+    margin-right: 20px;
+}
+.art_r_down ul li span{
+    font: italic 16px SimSun;
+    color: #5a5b5b;
+    text-align: right;
+    margin-top: 20px;
+}
+.art_r_down_l{
+    width:260px;
+    height:160px;
+    background: rgb(213,93,92);
+}
+.art_r_down_l span{
+    font-size:110px;
+    color:#fff;
+    padding:0 10px;
+}
+.art_r_down_l .num{
+    border-left:2px solid #fff;
+    height:95px;
+    margin-top: 35px;
+}
+.art_r_down_l .mark{
+    font: italic 21px SimHei;
+    line-height: 24px;
+    color: #fff;
+    margin-left:10px;
+    margin-bottom: 20px;
+}
+.art_r_down_l .mark1{
+     font: 12px SimHei;
+     color: #fff;
+    margin-left:10px;
+}
+.art_r_down_r{
+    width: 180px;
+    height: 130px;
+    margin-top: 30px;
+}
+.art_r_down_r p i{
+    font: 72px SimHei;
+    color: #d45d5c;
+}
+.art_r_down_r p .mark2{
+    margin: -18px 10px 0 -40px;
+    height: 30px; 
+}
+.art_r_down_r p{
+    font:italic 14px SimHei;
+    color:#5a5b5b;
+}
+footer{
+    clear: both;
+    border-top: 1px solid #938e8c;
+}
+footer span{
+    color: #d45d5c;
+    font-size: 12px;
+    font-family: SimHei;
+}
